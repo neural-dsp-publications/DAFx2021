@@ -7,7 +7,7 @@
 }
 
 a:link {
-  color:  #ffa300;/*#80927c;*/
+  color:  #424242;/*#80927c;*/
   text-decoration: none; 
 }
 
@@ -25,7 +25,7 @@ a:active {
 }
 
 a.select{
-    color: #ffa300;
+    color: #494949;
 
 }
 
@@ -93,7 +93,7 @@ div.contentarea{
   padding-top: 0px;
   /*border: 1px solid #8c857b;*/
 
-  border-left: 5px dotted #ffcd00;
+  border-left: 5px dotted #7e7e7e;
   /*box-shadow: -5px 1px 5px #8c857b;*/
   border-radius: 0px;
   /*box-shadow: 0px 0px 2px 1px #dddddd;*/
@@ -135,7 +135,7 @@ div.pub{
 }
 
 div.more {
-   border-left: 5px dotted #005eb8;
+   border-left: 5px dotted #353c42;
    padding: 0px;
    padding-left: 10px;
    padding-right: 10px;
