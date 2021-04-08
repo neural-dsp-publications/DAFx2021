@@ -2,12 +2,21 @@
 <html lang="en">
 
 <head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function ($) {
+
+			$('#demo1').load('audiotable_clipper.html');
+			$('#demo2').load('audiotable_sd1.html');
+			$('#demo3').load('audiotable_phase90.html');
+
+		});
+	</script>
+
 	<meta charset="utf-8" />
 	<title>DAFx2021 demo page</title>
-
 	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-	
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -15,17 +24,11 @@
 		<header class="header">
 			<table border="0">
 				<tr>
-					<!--
-					<td width="170">
-						<a href="http://elec.aalto.fi/"><img src="eleclogo.png" width="100%" align="right"></a>
-					</td>
-					-->
 					<td>
 						<h1>DAFx2021 demo page</h1>
-						<h2>Exposure bias and state matching in recurrent neural networks for virtual analog modeling
+						<h2>Exposure bias and state matching in recurrent neural networks for virtual analog models
 						</h2>
 					</td>
-
 				</tr>
 			</table>
 
@@ -35,21 +38,14 @@
 
 		<section class="content">
 
-			<div w3-include-html="audiotable_clipper.html"></div>
-
-			<!--
-	<div class="contentarea" id="demo1"></div>
-	<div class="contentarea" id="demo2"></div>
-	<div class="contentarea" id="demo3"></div>
-	-->
-
-
-
+			<div class="contentarea" id="demo1"></div>
+			<div class="contentarea" id="demo2"></div>
+			<div class="contentarea" id="demo3"></div>
 
 		</section>
 
 		<footer class="footer">
-			<p><i>Updated: 12.04.2021</i></p>
+			<p><i>Updated: 08.04.2021</i></p>
 		</footer>
 	</div>
 </body>
